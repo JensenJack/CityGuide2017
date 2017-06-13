@@ -1,0 +1,15 @@
+{
+    "name": "zawmyolatt/city",
+    "description": "",
+    "authors": [
+        {
+            "name": "Zaw Myo Latt",
+            "email": "zawmyolatt.ucsy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\City\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "HotelCategory",
+    "alias": "hotelcategory",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 4,
+    "providers": [
+        "Modules\\HotelCategory\\Providers\\HotelCategoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

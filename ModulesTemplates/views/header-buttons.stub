@@ -1,0 +1,21 @@
+<div class="pull-right mb-10 hidden-sm hidden-xs">
+    {{ link_to_route('admin.$LOWER_NAME$.index', trans('$LOWER_NAME$::menus.backend.$LOWER_NAME$.all'), [], ['class' => 'btn btn-primary btn-xs']) }}
+    @if(access()->hasPermission('create-$LOWER_NAME$'))
+        {{ link_to_route('admin.$LOWER_NAME$.create', trans('$LOWER_NAME$::menus.backend.$LOWER_NAME$.create'), [], ['class' => 'btn btn-success btn-xs']) }}
+    @endif()
+</div><!--pull right-->
+
+<div class="pull-right mb-10 hidden-lg hidden-md">
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            {{ trans('$LOWER_NAME$::menus.backend.$LOWER_NAME$.main') }} <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu" $LOWER_NAME$="menu">
+            <li>{{ link_to_route('admin.$LOWER_NAME$.index', trans('$LOWER_NAME$::menus.backend.$LOWER_NAME$.all')) }}</li>
+            <li>{{ link_to_route('admin.$LOWER_NAME$.create', trans('$LOWER_NAME$::menus.backend.$LOWER_NAME$.create')) }}</li>
+        </ul>
+    </div><!--btn group-->
+</div><!--pull right-->
+
+<div class="clearfix"></div>

@@ -1,0 +1,16 @@
+{
+    "name": "Amenity",
+    "alias": "amenity",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 3,
+    "providers": [
+        "Modules\\Amenity\\Providers\\AmenityServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

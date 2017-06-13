@@ -1,0 +1,15 @@
+{
+    "name": "zawmyolatt/hotelsupplier",
+    "description": "",
+    "authors": [
+        {
+            "name": "Zaw Myo Latt",
+            "email": "zawmyolatt.ucsy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\HotelSupplier\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "RoomCategory",
+    "alias": "roomcategory",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 6,
+    "providers": [
+        "Modules\\RoomCategory\\Providers\\RoomCategoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
